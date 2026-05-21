@@ -1,8 +1,34 @@
 {
-  "name": "touchmove-bug-demo",
+  "name": "touchmove-debug",
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "description": "一次让我重新理解 touchmove 的线上 Debug —— AI Chat 流式输出场景下 touchmove 失效问题的最小复现 demo 与博客（Vue 3 + Vite）",
+  "author": {
+    "name": "mosuzi",
+    "email": "mosuouyang@gmail.com",
+    "url": "https://github.com/mosuzi"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mosuzi/touchmove-debug#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosuzi/touchmove-debug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mosuzi/touchmove-debug/issues"
+  },
+  "keywords": [
+    "touchmove",
+    "touch-events",
+    "mobile",
+    "ai-chat",
+    "streaming",
+    "vue3",
+    "vite",
+    "debug",
+    "ios-safari"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
